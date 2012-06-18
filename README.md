@@ -1,0 +1,1 @@
+This is the Software Systems Student Society's GitHub page.
