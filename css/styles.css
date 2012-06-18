@@ -1,0 +1,70 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE */
+}
+
+html {
+  font-family: Georgia, "Times new roman", times, serif;
+  background-image: url('img/bg.jpg');
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.5);
+  color: #333;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.dark-bg-content {
+  background-color: rgba(0, 127, 127, 0.125);
+  border-radius: 10px;
+  padding: 60px 100px 20px 100px;
+}
+
+.dark-bg-content h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.dark-bg-content p {
+  font-size: 2em;
+  line-height: 1.25em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+  body {
+    
+  }
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*  .logo {
+    background: url(logo2x.jpg) no-repeat;
+    background-size: 212px 303px;
+  }*/
+
+}
